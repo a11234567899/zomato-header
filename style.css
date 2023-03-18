@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Okra, Helvetica, sans-serif;
+}
+body{
+    background-color: red;
+}
+
+.bg-img {
+    height: 600px;
+    width: 100%;
+    background-image: url("https://b.zmtcdn.com/web_assets/81f3ff974d82520780078ba1cfbd453a1583259680.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.conatiner{
+    position: absolute;
+    width: 10%;
+}
+.topnav{
+    width: 83%;
+}
+.topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+    font-size: 20px
+}
+a{
+    margin-left: 40px;
+    /* font-size: 50px; */
+    margin-top: 10px;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    text-align: right;
+    font-weight: 300;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 0.6rem;
+    vertical-align: middle;
+    padding: 0.8rem !important;
+}
+
+.mt{
+    position: absolute;
+    top: 30%;
+    display: block;
+    margin-left: 40%;
+    margin-right: auto;
+    height: 70px;
+    color: white;
+}
+
+.resturant{
+    position: absolute;
+    top: 42%;
+    display: block;
+    margin-left: 35%;
+    margin-right: auto;
+    color: white; 
+    font-size: 45px;
+}
+.india{
+    position: absolute;
+    top: 49%;
+    display: block;
+    margin-left: 38%;
+    margin-right: auto;
+    color: white; 
+    font-size: 40px;
+}
+.main p{
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    color: white;
+    font-size: 25px;
+    margin-top: 30px;
+}
+.flag img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
